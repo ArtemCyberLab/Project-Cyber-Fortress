@@ -6,9 +6,9 @@ In this task, tools like Nmap, Gobuster, Hashcat, and LinPeas were used. The cha
 
 All actions were performed within the legal and controlled environment of TryHackMe, which provides a legitimate and safe platform for learning and practicing cybersecurity. TryHackMe is specifically designed for educational purposes, and all tasks are solved within its platform, ensuring compliance with legal standards.
 
-Steps Taken:
+Steps Taken
 Port Scanning:
-The first step was to scan open ports using the Nmap command (nmap -sV -sC -v 10.10.183.215), which revealed open ports 22 (SSH) and 80 (Apache HTTP).
+The first step was to scan open ports using the Nmap command (nmap -sV -sC -v 10.10.145.221), which revealed open ports 22 (SSH) and 80 (Apache HTTP).
 
 Web Application Discovery:
 I used Gobuster to brute-force directories and files on the web server, which led to finding an admin page and the /etc/squid folder containing a password hash.
